@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vintage Clothing Marketplace</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f8f9fa;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+        header h1 {
+            margin: 0;
+        }
+        main {
+            padding: 2rem;
+            text-align: center;
+        }
+        .product {
+            border: 1px solid #ddd;
+            padding: 1rem;
+            margin: 1rem;
+            display: inline-block;
+            background: white;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Vintage Clothing</h1>
+        <p>Buy and sell second-hand clothes with ease!</p>
+    </header>
+    <main>
+        <div id="product-list">
+            <div class="product">
+                <h2>Vintage Denim Jacket</h2>
+                <p>Price: $50</p>
+            </div>
+            <div class="product">
+                <h2>Retro T-Shirt</h2>
+                <p>Price: $20</p>
+            </div>
+            <div class="product">
+                <h2>Classic Leather Boots</h2>
+                <p>Price: $100</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Vintage Clothing. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
